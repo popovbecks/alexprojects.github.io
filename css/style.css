@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+.head{
+	max-width: 1400px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #000;
+}
+.logo{
+	float: left;
+}
+.menu{
+	float:left;
+	padding: 46px 0 46px 0;
+}
+.search_backet{
+	float: right;
+	padding: 46px 95px 46px 0;
+}
+.search_backet ul li{
+	display: inline-block;
+}
+.search_backet ul li:first-child{
+	padding-right: 30px;
+}
+.search_backet ul li:last-child{
+	padding-left: 8px;
+}
+.search_backet ul li a{
+	color: #fff;
+	font-size: 13px;
+}
+.logo{
+	padding:25px 40px 30px 80px;
+}
+.menu li{
+	display: inline-block;
+	padding-right: 25px;
+}
+.menu a{
+	color:#fff;
+	font-size: 13px;
+	font-family: "ProximaNovaBold";
+	text-transform: uppercase;
+}
+.slides{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.slide_1{
+	background: url(../img/slide_1.png)no-repeat;
+	height:667px;
+	position: relative;
+	
+}
+.slide_1 h2{
+	color:#000;
+	font-family: "ProximaNovaBold";
+	font-size: 80px;
+	text-transform: uppercase;
+	position: absolute;
+	left:358px;
+	top:294px;
+	
+
+}
+.slide_2{
+	background: url(../img/slide_2.png)no-repeat;
+	height:675px;
+	position: relative;
+}
+.slide_2 h2{
+	color:#fff;
+	font-family: "ProximaNovaBold";
+	font-size: 80px;
+	text-transform: uppercase;
+	position: absolute;
+	left:358px;
+	top:205px;
+	
+
+}
+.owl-pagination{
+	display: none!important;
+}
+.detales a{
+	color:#fff;
+	padding: 18px 30px;
+	font-size: 14px;
+	font-family: "ProximaNovaBold";
+	background-color: #000;
+	text-transform: uppercase;
+}
+.slide_1 .detales{
+	top:526px;
+	right: 470px;
+	position: absolute;
+}
+.slide_2 .detales{
+	top:500px;
+	right: 470px;
+	position: absolute;
+}
+.snowboards{
+	padding-top: 160px;
+	margin:0 auto;
+	max-width: 1400px;
+	padding-bottom: 100px;
+}
+.snowboards h2{
+	color:#000;
+	font-size: 48px;
+	text-align: center;
+	 font-family: "ProximaNovaBold";
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.snowboards h3{
+	color:#424242;
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 25px;
+}
+.snowboards p{
+	
+	text-align: center;
+}
+.carousel_boards{
+	text-align: center;
+	position: relative;
+	padding-bottom: 210px;
+	margin: 0 auto;
+	max-width: 1400px;
+}
+.next_button{
+	position: absolute;
+	top:15%;
+	right: 20px;
+	cursor: pointer;
+	z-index: 11;
+}
+.prev_button{
+	position: absolute;
+	top: 15%;
+	left: 20px;
+	cursor: pointer;
+	z-index: 11;
+}
+.carousel_2 {
+    padding: 0 120px !important;
+
+}
+.carousel_boards h3{
+	color:#000;
+	text-align: center;
+	font-size: 24px;
+	font-family: "ProximaNovaBold";
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+.company{
+	margin: 0 auto;
+	max-width: 1400px;
+	background: url(../img/company_back.png)no-repeat;
+	height: 954px;
+}
+.text_company{
+	width: 800px;
+	padding: 250px 0 0 220px;
+}
+.text_company h3{
+	color:#fff;
+	font-size: 44px;
+	text-transform: uppercase;
+	font-family: "ProximaNovaBold";
+	padding-bottom: 60px;
+}
+.text_company p{
+	font-family: "ProximaNovaRegular";
+	font-size: 15px;
+	color:#fff;
+	padding-bottom: 50px;
+}
+.text_company span{
+	font-size: 20px;
+}
+.futures{
+	padding-top: 125px;
+	padding-bottom: 85px;
+	margin: 0 auto;
+	max-width: 1400px;
+}
+.futures h3{
+	color:#000;
+	font-size: 48px;
+	text-align: center;
+	 font-family: "ProximaNovaBold";
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.futures p{
+	text-align: center;
+}
+.text_und{
+	padding-top: 25px;
+}
+.text_und p{
+	font-size: 16px;
+	font-family: "ProximaNovaBold";
+	color:#000;
+}
+.text_und p:first-child{
+	padding-bottom: 15px;
+}
+.company_img{
+	padding-bottom: 135px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.footer{
+	background-color: #000;
+	padding-bottom: 60px;
+}
+.footer_colum{
+	padding-top: 75px;
+}
+.footer_colum li{
+	display: block;
+	color:#fff;
+	font-family: "ProximaNovaBold";
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+
+}
+.footer_colum a{
+	color:#909090;
+	text-transform: none;
+}
+.footer_colum p{
+	padding-top: 100px;
+	color:#fff;
+	font-size: 14px;
+	font-family: "ProximaNovaBold";
+}
+.form_form{
+	width: 160px;
+	height: 40px;
+}
+.button{
+	width: 58px;
+	height: 40px;
+	background-color: #c7c7c7;
+	color:#000;
+	font-weight: bolder;
+	margin-left: -4px;
+	border: none;
+}
+.mail{
+	padding-bottom: 60px;
+}
+.social li{
+	display: inline-block;
+	padding-right: 26px;
+}
+
+.social i{
+	color:#fff;
+	font-size: 22px;
+}
+.social p{
+	color:#fff;
+	padding-top:75px;
+	font-family: "ProximaNovaBold";
+	font-size: 14px;
+}
+
